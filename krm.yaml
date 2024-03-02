@@ -61,6 +61,7 @@ metadata:
   labels:
     app: krm-backend
   name: krm-backend
+  namespace: krm
 spec:
   ports:
   - name: http
@@ -78,6 +79,7 @@ metadata:
   labels:
     app: krm-backend
   name: krm-backend
+  namespace: krm
 spec:
   replicas: 1
   selector:
@@ -148,6 +150,7 @@ metadata:
   labels:
     app: krm-frontend
   name: krm-frontend
+  namespace: krm
 spec:
   ports:
   - name: http
@@ -165,6 +168,7 @@ metadata:
   labels:
     app: krm-frontend
   name: krm-frontend
+  namespace: krm
 spec:
   replicas: 1
   selector:
